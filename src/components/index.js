@@ -4,9 +4,9 @@
  * */
 
 import Vue from 'vue'
-import NavBar from './NavBar.vue'
+import Header from './Header.vue'
 [
-    NavBar,
+    Header,
 ].forEach(c=>{
     Vue.component(c.name,c)
 })
