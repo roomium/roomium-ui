@@ -16,13 +16,13 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Della+Respira&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Della Respira", serif;
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 </style>

@@ -4,11 +4,11 @@
     <div>
       <b-nav align="right" class="wrapper-nav">
         <b-nav-item class="item-nav mr-3">Home</b-nav-item>
-        <b-nav-item class="item-nav mr-3">Link</b-nav-item>
-        <b-nav-item class="item-nav mr-3">Another Link</b-nav-item>
+        <b-nav-item class="item-nav mr-3">Contact</b-nav-item>
+        <b-nav-item class="item-nav mr-3">About</b-nav-item>
         <!-- cant use b-nav-item so i using span -->
         <b-nav-item>
-          <span class="login-nav" style="color:white;">Login</span>
+          <span class="login-nav" style="color: white"> Login </span>
         </b-nav-item>
       </b-nav>
       <hr />
@@ -37,18 +37,18 @@ export default {
   /* margin: 0 30px; */
   font-size: 19px;
   letter-spacing: 1px;
-  color: #2ec1ac;
+  color: #07689f;
 }
 .login-nav {
-  background-color: #2ec1ac;
-  color: white !important;
+  -webkit-text-stroke: 1px #ffffff;
+  letter-spacing: 1px;
+  background-color: #07689f;
+  /* color: #ffffff; */
   border-radius: 10px;
   padding: 7px 25px;
   justify-content: center;
   text-align: center;
-  /* margin-bottom: 2px; */
   margin-right: 150px;
-  /* padding-bottom: -3px; */
   font-size: 19px;
 }
 /* navbar-link-end  */
